@@ -1,0 +1,16 @@
+name: Disguise
+main: DarkfulRebel\Disguise\Main
+api: 3.0.0
+version: 1.0.0
+author: DarkfulRebel
+description: Disguise Plugin for PocketMine-MP
+
+commands:
+  disguise:
+    description: Disguise as a player
+    usage: /disguise <playername>
+    permission: disguise.command
+
+permissions:
+  disguise.command:
+    description: Disguise permission for user to execute /disguise command.
